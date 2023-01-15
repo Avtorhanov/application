@@ -1,0 +1,29 @@
+<link rel="stylesheet" href="/css/style.css">
+<nav class="navbar">
+<h1 class="nav-brand">Todo list</h1>
+</nav>
+
+<main class="container">
+  <form id="todo-list-form">
+    <div>
+      <label class="label" for="component-name">Add task</label>
+      <input type="string" class="input" required placeholder="Task title" id="todo-title">
+    </div>
+    <label>
+        <input type="checkbox" id="todo-completed" value="" /> Is completed?
+    </label>
+    <select required id="todo-category">
+      <option value="">Select category</option>
+      <option value="work">Work</option>
+      <option value="personal">Personal</option>
+    </select>
+      <input type="submit" class="btn btn-default" value="Add" />
+  </form>
+  
+  <ul id="todo-list">
+    
+  </ul>
+
+</main>
+<!-- <script type="module" src="js2.js"></script> -->
+<script type="module" src="/js/todo.js"></script>
